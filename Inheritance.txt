@@ -1,0 +1,9 @@
+function Student(Subject,  CoordinatorName, NOofHours , NoofStudents){
+ this.Subject = Subject;
+ this.CoordinatorName =  CoordinatorName;
+ this.NOofHours  = NOofHours ;
+ this.NoofStudents = NoofStudents ;
+}
+var nora = new Student ("Math" , "Majed" , "6" , "1001") ;
+var maha = new Student ("Arabic" , "Lamia" , "3" , "1002");
+document.write(nora.Subject+" "+nora.CoordinatorName+" "+nora.NOofHours +" "+ nora.NoofStudents );

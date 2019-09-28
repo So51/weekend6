@@ -1,0 +1,11 @@
+var Student = {
+NOofHours: "6",
+subject : "math",
+name : "nora",
+get namGet(){
+  return this.name; },
+set namSet(value){
+  this.name = value ;}
+};
+Student.name = "Sara";
+document.write(Student. namGet) ;
